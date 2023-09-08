@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,600&family=Poppins:wght@300;400&display=swap');
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.App{
+    width: 100%;
+    text-align: center;
+}
+.App h1{
+    color: blueviolet;
+}
+.todoinput{
+    width: 100%;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.todoinput>h2,.todolist>h2{
+    color: rgb(221, 45, 118);
+}
+.todoinput input{
+    width: 200px;
+    font-size: 20px;
+}
+.todoinput button{
+    font-size: 20px;
+    padding: 0px 10px;
+}
+.todolist{
+    width: 100%;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    margin-top: 10px;
+}
+.todolist>div{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    border: 1px solid gainsboro;
+    gap: 20px;
+    margin: 5px auto;
+}

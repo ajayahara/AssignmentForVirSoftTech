@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,600&family=Poppins:wght@300;400&display=swap');
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.App{
+    width: 100%;
+    text-align: center;
+}
+h2{
+    color: blueviolet;
+}
+.error{
+    color: red;
+}
+.ans{
+    color: green;
+}
